@@ -16,8 +16,8 @@ def find_the_cheese(ingredients)
   while counter < ingredients.length
     if cheese_types.include?(ingredients[counter])
       print_me = ingredients[counter]
-      counter += 1
     end
+      counter += 1
 end
   p print_me
 end
